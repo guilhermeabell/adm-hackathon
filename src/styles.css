@@ -1,0 +1,26 @@
+:root{
+  --elements-color: #D9A3CA;
+  --color-title: #73536D;
+  --foreground: #DFDFDF;
+  --primary-color: #F3F3F3;
+  --text-color: #252526;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: var(--primary-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+a{
+  text-decoration: none;
+  outline: none;
+}
+
