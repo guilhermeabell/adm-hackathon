@@ -1,0 +1,34 @@
+.homeHeader .home-content{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeHeader .home-content .home-header{
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.homeHeader .home-content .home-header .user-section-img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.homeHeader .home-content .home-header .user-section-img img{
+    width: 70px;
+    height: 70px;
+}
+
+.homeHeader .home-content .home-header .user-section-title{
+    margin-left: 20px;
+}
+
+.homeHeader .home-content .home-header .user-section-title p{
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-title);
+}
