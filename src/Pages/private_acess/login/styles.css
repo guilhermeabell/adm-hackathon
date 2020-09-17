@@ -1,0 +1,101 @@
+#loginPage .loginPage-content{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    gap: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginPage .loginPage-content .loginPage-header{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#loginPage .loginPage-content .loginPage-header .header-title{
+    color: var(--color-title);
+    font-weight: 600;
+    font-size: 2rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#loginPage .loginPage-content .formLogin{
+    width: 50%;
+    margin-top: 5vh;
+}
+
+#loginPage .loginPage-content .formLogin form .loginForm-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#loginPage .loginPage-content .formLogin form .loginForm-field span{
+    margin: 0 0 5px 10px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#loginPage .loginPage-content .formLogin form .loginForm-field input{
+    width: 100%;
+    margin-bottom: 10px;
+
+    background: var(--foreground);
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 14px;
+    font-size: 16px;
+    color: var(--text-color);
+    outline: 0;
+}
+
+#loginPage .loginPage-content .formLogin form .submitButton{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+#loginPage .loginPage-content .formLogin form .submitButton a{
+    width: 40%;
+}
+
+#loginPage .loginPage-content .formLogin form .submitButton input{
+    width: 100%;
+    background: var(--elements-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    outline: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#loginPage .loginPage-content .formLogin form .submitButton input:hover{
+    opacity: 80%; 
+}
+
+#loginPage .loginPage-content .footer-login{
+    margin-top: 5vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginPage .loginPage-content .footer-login p{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--text-color);
+}
+
