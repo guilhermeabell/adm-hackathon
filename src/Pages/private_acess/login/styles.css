@@ -99,3 +99,17 @@
     color: var(--text-color);
 }
 
+@media (max-width: 600px ){
+    #loginPage .loginPage-content .loginPage-header{
+        width: 90%;
+    }
+
+    #loginPage .loginPage-content .formLogin{
+        width: 80%;
+        margin-top: 5vh;
+    }
+
+    #loginPage .loginPage-content .formLogin form .submitButton a{
+        width: 80%;
+    }
+}
