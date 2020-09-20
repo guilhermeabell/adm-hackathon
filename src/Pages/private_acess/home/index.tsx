@@ -6,6 +6,7 @@ import addteam from './assets/addteam.svg'
 import manageprojects from "./assets/manageprojects.svg"
 import showmembers from './assets/showmembers.svg'
 import { Link } from 'react-router-dom'
+import arrow from './assets/arrow.svg'
 
 var data = new Date();
 var hour = data.getHours();
@@ -19,7 +20,7 @@ const loginPage = () => {
                         <img src={icon}></img>
                     </div>
                     <div className="user-section-title">
-                        <p className="user-title" >Olá Pedro,</p>
+                        <p className="user-title" >Olá Felipe,</p>
                         <p className="user-title" >tenha {`${(hour <= 12 ? 'um bom dia!' : hour <= 17 ? 'uma boa tarde!' : 'uma boa noite!')}`}</p>
                     </div>
                 </div>
@@ -60,8 +61,67 @@ const loginPage = () => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
+                <div className="menu-content">
+                    <p>Últimas mentorias</p>
+                </div>
+
+                <div className="master">
+                    <div className="masterclass">
+                        <div className="masterclass-content">
+                            <div className="masterclass-item">
+                                <div className="masterclass-item-single">
+                                    <div className="masterclass-text">
+                                        <p>Mentor: Pedro</p>
+                                        <p>Horario: Sexta-Feira (18) às 19:00 horas</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Link to="/mentorias">
+                                            <img src={arrow} alt=""/>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="masterclass">
+                        <div className="masterclass-content">
+                            <div className="masterclass-item">
+                                <div className="masterclass-item-single">
+                                    <div className="masterclass-text">
+                                        <p>Mentor: Igor</p>
+                                        <p>Horario: Segunda-Feira (21) às 15:00 horas</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Link to="/mentorias">
+                                            <img src={arrow} alt=""/>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="masterclass">
+                        <div className="masterclass-content">
+                            <div className="masterclass-item">
+                                <div className="masterclass-item-single">
+                                    <div className="masterclass-text">
+                                        <p>Mentor: Felipe</p>
+                                        <p>Horario: Terça-Feira (22) às 17:00 horas</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Link to="/mentorias">
+                                            <img src={arrow} alt=""/>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
             </div>
         </div>
     )

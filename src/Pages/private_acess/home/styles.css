@@ -53,13 +53,12 @@
 }
 
 .homeHeader .home-content .shortcuts .shortcuts-content{
-    width: 65%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .homeHeader .home-content .shortcuts .shortcuts-content .itens-menu{
-    margin-top: 2vh;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -90,4 +89,70 @@
     color: var(--text-color); 
     padding: 15px;  
     width: 120px;
+}
+
+.homeHeader .home-content .master{
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.homeHeader .home-content .master .masterclass{
+    width: 100%;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.homeHeader .home-content .master .masterclass .masterclass-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--foreground);
+    border-radius: 8px;
+}
+
+.homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item{
+    width: 100%;
+    padding: 30px 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item .masterclass-item-single{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item .masterclass-item-single .masterclass-text{
+    font-size: 1.3rem;
+}
+.homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item .masterclass-item-single .arrow img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 600px ){
+    .homeHeader .home-content .home-header{
+        width: 90%;
+    }
+
+    .homeHeader .home-content .menu-content{
+        width: 80%;
+    }
+
+    .homeHeader .home-content .shortcuts .shortcuts-content{
+        width: 70%;
+        overflow-x: auto;
+    }
+
+    .homeHeader .home-content .master .masterclass .masterclass-content{
+        width: 70%;
+    }
 }
