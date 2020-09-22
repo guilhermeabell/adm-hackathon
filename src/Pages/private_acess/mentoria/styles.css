@@ -1,0 +1,54 @@
+#pageMentoria{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pageMentoria .mentorias{
+    width: 65%;
+}
+
+#pageMentoria .mentorias .mentoria-title{
+    background-color: var(--foreground);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+#pageMentoria .mentorias .mentoria-title .mentoria-text p{
+    font-size: 1.2rem;
+}
+
+#pageMentoria .mentorias .mentoria-info{
+    margin-top: 5vh;
+    background-color: var(--foreground);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+#pageMentoria .mentorias .mentoria-info .contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pageMentoria .mentorias .mentoria-info .contact .contact-button{
+    width: 20%;
+}
+
+#pageMentoria .mentorias .mentoria-info .contact .contact-button button{
+    width: 100%;
+    background: var(--elements-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    outline: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
