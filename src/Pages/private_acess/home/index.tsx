@@ -40,21 +40,21 @@ const loginPage = () => {
                             </div>
 
                             <div className="itens-single">
-                                <Link to="/addfile"> 
+                                <Link to="/addteams"> 
                                     <img src={addteam} alt=""/>
                                     <p>Adicionar time</p>
                                 </Link>
                             </div>
 
                             <div className="itens-single">
-                                <Link to="/addfile"> 
+                                <Link to="/showmembers"> 
                                     <img src={showmembers} alt=""/>
                                     <p>Ver participantes</p>
                                 </Link>
                             </div>
 
                             <div className="itens-single">
-                                <Link to="/addfile"> 
+                                <Link to="manajeprojects"> 
                                     <img src={manageprojects} alt=""/>
                                     <p>Gerenciar projetos</p>                                        
                                 </Link>

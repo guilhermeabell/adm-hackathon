@@ -1,0 +1,101 @@
+#addPage .addPage-content{
+    margin-top: 15vh;
+    width: 100%;
+    display: flex;
+    gap: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#addPage .addPage-content .addPage-header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#addPage .addPage-content .addPage-header .header-title{
+    color: var(--color-title);
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#addPage .addPage-content .formAdd{
+    width: 50%;
+    margin-top: 5vh;
+}
+
+#addPage .addPage-content .formAdd form .addForm-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#addPage .addPage-content .formAdd form .addForm-field span{
+    margin: 0 0 5px 10px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#addPage .addPage-content .formAdd form .addForm-field input{
+    width: 100%;
+    margin-bottom: 10px;
+
+    background: var(--foreground);
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 14px;
+    font-size: 16px;
+    color: var(--text-color);
+    outline: 0;
+}
+
+#addPage .addPage-content .formAdd form .submitButton{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#addPage .addPage-content .formAdd form .submitButton a{
+    width: 40%;
+}
+
+#addPage .addPage-content .formAdd form .submitButton input{
+    width: 100%;
+    background: var(--elements-color);
+    border-radius: 10px;
+    border: 0;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    outline: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#addPage .addPage-content .formAdd form .submitButton input:hover{
+    opacity: 80%; 
+}
+
+
+@media (max-width: 600px ){
+    #addPage .addPage-content .addPage-header{
+        width: 90%;
+    }
+
+    #addPage .addPage-content .formAdd{
+        width: 80%;
+        margin-top: 5vh;
+    }
+
+    #addPage .loginPage-content .formAdd form .submitButton a{
+        width: 80%;
+    }
+}
