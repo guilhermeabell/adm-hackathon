@@ -138,6 +138,7 @@
     height: 40px;
 }
 
+
 @media (max-width: 600px ){
     .homeHeader .home-content .home-header{
         width: 90%;
@@ -154,5 +155,13 @@
 
     .homeHeader .home-content .master .masterclass .masterclass-content{
         width: 70%;
+    }
+
+    .homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item .masterclass-item-single .masterclass-text{
+        font-size: 1rem;
+    }
+
+    .homeHeader .home-content .master .masterclass .masterclass-content .masterclass-item .masterclass-item-single .arrow img{
+        display: none;
     }
 }
